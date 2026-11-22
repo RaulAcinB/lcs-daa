@@ -1,0 +1,2 @@
+# Solo para las gráficas; los algoritmos usan únicamente la biblioteca estándar.
+matplotlib>=3.3
