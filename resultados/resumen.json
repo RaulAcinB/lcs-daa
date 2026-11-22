@@ -1,0 +1,120 @@
+{
+  "entorno": {
+    "sistema": "macOS-26.5.2-arm64-arm-64bit",
+    "arquitectura": "arm64",
+    "python": "3.9.6",
+    "implementacion": "CPython",
+    "procesador": "Apple M1",
+    "modelo": "MacBookPro17,1",
+    "memoria_total_gb": 8.0,
+    "nucleos": 8
+  },
+  "configuracion": {
+    "corta": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18
+    ],
+    "peor_caso": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "larga": [
+      250,
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "repeticiones": 5,
+    "repeticiones_larga": 3
+  },
+  "resumen": {
+    "longitudes_larga": [
+      250,
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "pendiente_tiempo_B": 2.07,
+    "pendiente_memoria_B": 1.34,
+    "pendiente_memoria_B_mayores": 1.19,
+    "pendiente_tiempo_C": 2.06,
+    "pendiente_memoria_C": 2.21,
+    "pendiente_memoria_C_mayores": 2.15,
+    "cociente_tiempo_B_C": [
+      2.1,
+      2.05,
+      2.06,
+      2.1,
+      2.21
+    ],
+    "cociente_memoria_C_B": [
+      60.1,
+      171.0,
+      212.3,
+      402.8,
+      804.0
+    ],
+    "ns_por_llamada_A": 226.2,
+    "factor_llamadas_peor_caso": 3.83,
+    "estimacion_A": [
+      {
+        "longitud": 250,
+        "llamadas_log10": 149.37,
+        "segundos_log10": 142.72,
+        "anios_log10": 135.22
+      },
+      {
+        "longitud": 500,
+        "llamadas_log10": 299.73,
+        "segundos_log10": 293.09,
+        "anios_log10": 285.59
+      },
+      {
+        "longitud": 1000,
+        "llamadas_log10": 600.61,
+        "segundos_log10": 593.97,
+        "anios_log10": 586.47
+      },
+      {
+        "longitud": 2000,
+        "llamadas_log10": 1202.52,
+        "segundos_log10": 1195.88,
+        "anios_log10": 1188.38
+      },
+      {
+        "longitud": 4000,
+        "llamadas_log10": 2406.49,
+        "segundos_log10": 2399.85,
+        "anios_log10": 2392.35
+      }
+    ],
+    "llamadas_A_corta": {
+      "4": 42,
+      "6": 139,
+      "8": 1704,
+      "10": 25028,
+      "12": 57029,
+      "14": 2297166,
+      "16": 1688636,
+      "18": 13604192
+    }
+  }
+}
